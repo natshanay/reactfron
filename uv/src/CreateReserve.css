@@ -1,0 +1,28 @@
+form{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    width: 400px; 
+    margin: 0 auto;
+
+}
+input{
+padding: 14px;
+margin: 10px;
+border-radius: 12px;
+
+}
+button{
+padding: 14px;
+margin: 10px;
+border-radius: 12px;
+
+}
+label{
+font-style: italic;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+border-radius: 12px;
+
+}
+
+

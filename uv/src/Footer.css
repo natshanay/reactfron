@@ -1,0 +1,75 @@
+.footer {
+    background-color: #343a40; /* Dark background color */
+    color: #fff; /* Light text color */
+    padding: 20px 0; /* Padding for spacing */
+    text-align: center; /* Center align text */
+  }
+  
+  .footer .container {
+    max-width: 1200px; /* Maximum width for content */
+    margin: 0 auto; /* Center the container */
+    padding: 0 20px; /* Padding on sides */
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align items */
+    margin-bottom: 20px; /* Space below content */
+  }
+  
+  .footer-logo h1 {
+    font-size: 2rem; /* Larger font size for the logo */
+    margin-bottom: 20px; /* Space below the logo */
+  }
+  
+  .footer-links {
+    margin-bottom: 20px; /* Space below the links */
+  }
+  
+  .footer-links a {
+    color: #fff; /* Light text color */
+    text-decoration: none; /* Remove underline */
+    margin: 0 10px; /* Space between links */
+    font-size: 1rem; /* Font size for the links */
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  .footer-socials {
+    margin-bottom: 20px; /* Space below the social links */
+  }
+  
+  .footer-socials a {
+    color: #fff; /* Light text color */
+    text-decoration: none; /* Remove underline */
+    margin: 0 10px; /* Space between social links */
+    font-size: 1rem; /* Font size for the social links */
+  }
+  
+  .footer-socials a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid #495057; /* Border on top */
+    padding-top: 10px; /* Padding for spacing */
+  }
+  
+  .footer-bottom p {
+    margin: 0; /* Remove default margin */
+    font-size: 0.9rem; /* Smaller font size for copyright text */
+  }
+  
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column; /* Stack items vertically on smaller screens */
+    }
+  
+    .footer-links, .footer-socials {
+      margin-bottom: 10px; /* Reduce space below links on smaller screens */
+    }
+  }
+  

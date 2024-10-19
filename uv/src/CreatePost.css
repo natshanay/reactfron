@@ -1,0 +1,16 @@
+.full-height {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;    /* Center vertically */
+  }
+  
+  .form-container {
+    width: 100%;
+    max-width: 600px; /* Adjust as needed */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Optional: Add shadow for better visibility */
+    border-radius: 8px; /* Optional: Rounded corners */
+    background-color: #fff; /* Optional: Background color */
+  }
+  

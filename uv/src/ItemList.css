@@ -1,0 +1,89 @@
+/* Container class for centering the content and adding top margin */
+.container {
+    max-width: 1650px; /* Adjust this width as needed */
+    margin: 50px auto 0; /* Add top margin and center horizontally */
+    padding: 0 15px; /* Add padding to the sides */
+}
+
+/* Optional: If you want to target only the top margin without horizontal centering */
+.item-list-top-margin {
+    margin-top: 50px; /* Adjust the top margin as needed */
+}
+
+/* Row class to use flexbox for centering items */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the items horizontally */
+    align-items: flex-start; /* Align items to the top */
+}
+
+/* Individual column styling */
+.col-md-3 {
+    flex: 1 1 23%; /* Adjust width to fit more products */
+    max-width: 25%; /* Ensures that each column takes up at most 25% of the row */
+    box-sizing: border-box; /* Ensures padding and borders are included in the width */
+    padding: 20px; /* Increased padding for more space around each card */
+}
+
+/* Product card styling */
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 15px; /* Increased margin for spacing between cards */
+    padding: 20px;
+    width: 100%;
+    max-width: 500px; /* Ensure each product card has a consistent width */
+    max-height: auto; /* Increased max-height to accommodate larger product images */
+    min-width: 220px; /* Increased min-width for a larger card */
+    background-color: white;
+    z-index: 1;
+    box-shadow: 0 8px 20px -10px rgba(0, 0, 0, 0.75); /* Enhanced shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.product:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+.product img {
+    max-height: 250px; /* Increased max-height for larger images */
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 20px; /* Increased margin for spacing below the image */
+}
+
+.product__info {
+    text-align: center;
+    height: 120px; /* Adjust height as needed */
+    margin-bottom: 20px; /* Increased margin for spacing below the info section */
+}
+
+.product__price {
+    margin-top: 5px;
+}
+
+.product__rating {
+    display: flex;
+    justify-content: center; /* Center the rating stars */
+    margin-bottom: 20px; /* Increased margin for spacing below the rating section */
+}
+
+.product button {
+    background: #f0c14b;
+    border: 1px solid #a88734;
+    color: #111;
+    padding: 10px 20px; /* Increased padding for a larger button */
+    font-size: 18px; /* Increased font size */
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.product button:hover {
+    background: #e3b03d; /* Darker shade on hover */
+}

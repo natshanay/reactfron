@@ -1,0 +1,57 @@
+.service-container {
+    padding: 40px 20px; /* Padding around the content */
+    background-color: #f8f9fa; /* Light background color */
+    color: #343a40; /* Dark text color for readability */
+  }
+  
+  .service-container h1 {
+    font-size: 2.5rem; /* Larger font size for the main heading */
+    margin-bottom: 30px; /* Space below the heading */
+    text-align: center; /* Center align the heading */
+  }
+  
+  .service-list {
+    display: flex;
+    flex-wrap: wrap; /* Wrap items in rows */
+    justify-content: space-around; /* Space items evenly */
+  }
+  
+  .service-item {
+    background-color: #fff; /* White background for each service item */
+    border: 1px solid #dee2e6; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px; /* Padding inside each service item */
+    margin: 10px; /* Space around each service item */
+    text-align: center; /* Center align text inside the service item */
+    flex: 1 1 calc(33% - 20px); /* Flexbox for responsive layout */
+  }
+  
+  .service-item h2 {
+    font-size: 1.5rem; /* Font size for service title */
+    margin-bottom: 10px; /* Space below the title */
+  }
+  
+  .service-item p {
+    font-size: 1rem; /* Font size for service description */
+    line-height: 1.6; /* Line height for readability */
+  }
+  
+  .service-icon {
+    width: 60px; /* Fixed width for the icon */
+    height: 60px; /* Fixed height for the icon */
+    margin-bottom: 15px; /* Space below the icon */
+  }
+  
+  @media (max-width: 768px) {
+    .service-item {
+      flex: 1 1 calc(50% - 20px); /* Two items per row on smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .service-item {
+      flex: 1 1 100%; /* One item per row on very small screens */
+    }
+  }
+  

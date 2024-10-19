@@ -1,0 +1,77 @@
+.sign-up-container {
+  max-width: 500px; /* Maximum width for the form */
+  margin: 0 auto; /* Center the form horizontally */
+  margin-top: 103px;
+  padding: 20px; /* Add padding around the form */
+  background-color: #f8f9fa; /* Light background color */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.sign-up-container h2 {
+  margin-bottom: 20px; /* Space below the heading */
+  text-align: center; /* Center the heading */
+  font-size: 2rem; /* Larger font size for the heading */
+  color: #343a40; /* Dark color for the heading */
+}
+
+.sign-up-form {
+  display: flex;
+  flex-direction: column; /* Arrange children in a column */
+}
+
+.form-group {
+  margin-bottom: 15px; /* Space between form fields */
+}
+
+.form-group label {
+  display: block; /* Make label a block element */
+  margin-bottom: 5px; /* Space below the label */
+  font-size: 1rem; /* Font size for the label */
+  color: #495057; /* Dark color for the label */
+}
+
+.form-group input {
+  width: 100%; /* Full width inputs */
+  padding: 10px; /* Padding inside the input */
+  border: 1px solid #ced4da; /* Border color */
+  border-radius: 4px; /* Rounded corners for inputs */
+  font-size: 1rem; /* Font size for input text */
+  box-sizing: border-box; /* Include padding and border in the width */
+}
+
+.form-group input:focus {
+  border-color: #007bff; /* Border color on focus */
+  outline: none; /* Remove default outline */
+  box-shadow: 0 0 5px rgba(38, 143, 255, 0.3); /* Subtle shadow on focus */
+}
+
+.sign-up-button {
+  width: 100%; /* Full width button */
+  padding: 10px; /* Padding inside the button */
+  background-color: #007bff; /* Primary color for the button */
+  color: #fff; /* Text color for the button */
+  border: none; /* Remove default border */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 1rem; /* Font size for the button text */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.sign-up-button:hover {
+  background-color: #0056b3; /* Darker color on hover */
+}
+
+.sign-up-button:focus {
+  outline: none; /* Remove default outline */
+}
+
+@media (max-width: 600px) {
+  .sign-up-container {
+    padding: 15px; /* Adjust padding for smaller screens */
+  }
+
+  .sign-up-button {
+    font-size: 0.9rem; /* Smaller font size for smaller screens */
+  }
+}

@@ -1,0 +1,65 @@
+.about-container {
+    padding: 40px 20px; /* Padding around the content */
+    background-color: #f8f9fa; /* Light background color */
+    color: #343a40; /* Dark text color for readability */
+  }
+  
+  .about-content {
+    max-width: 800px; /* Maximum width for the content */
+    margin: 0 auto; /* Center the content horizontally */
+  }
+  
+  .about-content h1 {
+    font-size: 2.5rem; /* Larger font size for main heading */
+    margin-bottom: 20px; /* Space below the heading */
+    text-align: center; /* Center align the heading */
+  }
+  
+  .about-content h2 {
+    font-size: 2rem; /* Font size for subheadings */
+    margin-top: 20px; /* Space above subheading */
+    margin-bottom: 10px; /* Space below subheading */
+  }
+  
+  .about-content p {
+    font-size: 1rem; /* Font size for paragraphs */
+    line-height: 1.6; /* Line height for better readability */
+    margin-bottom: 20px; /* Space below paragraphs */
+  }
+  
+  .about-content ul {
+    list-style: disc; /* Disc style for list items */
+    padding-left: 20px; /* Padding for the list */
+  }
+  
+  .about-content li {
+    margin-bottom: 10px; /* Space below list items */
+  }
+  
+  .team-members {
+    display: flex;
+    flex-wrap: wrap; /* Wrap team members in rows */
+    justify-content: space-around; /* Space around items */
+  }
+  
+  .team-member {
+    text-align: center; /* Center align text inside team member block */
+    margin: 20px; /* Margin around each team member block */
+  }
+  
+  .team-member img {
+    width: 150px; /* Fixed width for team member images */
+    height: 150px; /* Fixed height for team member images */
+    border-radius: 50%; /* Circular images */
+    object-fit: cover; /* Cover the image within the circular frame */
+  }
+  
+  .team-member h3 {
+    margin-top: 10px; /* Space above the name */
+    font-size: 1.2rem; /* Font size for the team member's name */
+  }
+  
+  .team-member p {
+    color: #6c757d; /* Lighter color for the position */
+  }
+  

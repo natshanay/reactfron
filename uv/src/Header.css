@@ -1,0 +1,38 @@
+.header {
+  background-color: #f8f9fa; /* Light background color */
+}
+
+.header .navbar {
+  padding: 0.5rem 1rem; /* Padding around navbar */
+}
+
+.header__logo {
+  height: 40px; /* Adjust logo size */
+}
+
+.navbar-nav .nav-link {
+  margin: 0 0.5rem; /* Space between links */
+  font-size: 1rem; /* Font size for navbar links */
+}
+
+.auth-links {
+  margin-left: auto; /* Push auth links to the right */
+}
+
+.auth-links .nav-link {
+  margin: 0 0.5rem; /* Space between auth links */
+  font-size: 1rem; /* Font size for auth links */
+}
+
+.navbar-toggler {
+  border: none; /* Remove border from toggler */
+}
+
+.navbar-toggler-icon {
+  background-image: url('data:image/svg+xml;charset=utf8,...'); /* Customize the toggler icon if needed */
+}
+
+/* Ensure that dropdown menus are correctly styled */
+.dropdown-menu {
+  border-radius: 0.5rem; /* Rounded corners for dropdown */
+}
